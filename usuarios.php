@@ -11,9 +11,9 @@
     <div class="dashboard-container">
         <nav>
                 <ul>
-                    <li><a href="index.php">Início</a></li>
+                    <li><a href="dashboard.php">Início</a></li>
                     <li><a href="usuarios.php">Usuários</a></li>
-                    <li><a href="produtos.php">Produtos</a></li>
+                    <li><a href="https://arsenaldirect.arsenal.com/Football-Shirts-and-Kit/c/kit">Produtos</a></li>
                 </ul> 
 
                 <div class="perfil-usuario">
@@ -73,6 +73,7 @@
 </tfoot>
             </table>
         </div>
+        
     </main>
     </div>
     <?php include 'rodape.php'; ?>
