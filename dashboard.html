@@ -7,14 +7,17 @@
 </head>
 <body>
     <div class="dashboard-container">
-
+<?php include 'menu.php'; ?>
         <nav>
             <ul>
                 <li><a href="#">Início</a></li>
                 <li><a href="https://www.arsenal.com/news">Notícias</a></li>
                 <li><a href="https://www.arsenal.com/fixtures">Jogos</a></li>
                 <li><a href="https://www.arsenal.com/men/players">Elenco</a></li>
+                <li><a href="usuarios.php">Usuarios</a></li>
+                <li><a href="cad-usuario.php">Cadastro de Usuarios</a></li>
             </ul>
+
 
             <div class="perfil-usuario">
                 <img src="https://cdn-icons-png.flaticon.com/512/6596/6596121.png" alt="Avatar">
@@ -26,21 +29,21 @@
             <section class="container-cards">
 
                 <article class="card">
-                    <img src="https://images2.minutemediacdn.com/image/upload/c_fill,w_720,ar_16:9,f_auto,q_auto,g_auto/shape/cover/sport/The-Arsenal-and-Chelsea-Club-Badges-13149f66cebd36fe387a8d3415f6c791.jpg" alt="Classico">
+                    <img src="img/Arsenal1.jpg" alt="Classico">
                     <h2>Arsenal vence clássico em Londres!</h2>
                     <p>O Arsenal conquistou uma vitória importante no clássico, mantendo a boa fase na temporada.</p>
                     <a href="https://www.espn.com.br/futebol/premier-league/artigo/_/id/16374812/arsenal-vence-classico-quente-chelsea-mantem-gordura-manchester-city-premier-league" class="btn">Ler mais</a>
                 </article>
 
                 <article class="card">
-                    <img src="https://external-preview.redd.it/every-word-from-artetas-pre-olympiacos-presser-v0-TjGZ2dISDfJZvko-WNLOiwmfiJfCA3VTvZBX7HSAGD4.jpeg?width=640&crop=smart&auto=webp&s=33a440fa9e43805f3e1b145f53662ff92e9d123f" alt="Coletiva">
+                    <img src="img/Arsenal2.jpg" alt="Coletiva">
                     <h2>Treinador comenta sobre desempenho do time</h2>
                     <p>O técnico falou sobre a evolução da equipe e os próximos desafios na Premiar League e Champions League.</p>
                     <a href="https://www.goal.com/br/listas/video-veja-a-expressao-facial-de-mikel-arteta-assista-ao-momento-extremamente-constrangedor-em-que-o-tecnico-do-arsenal-e-informado-sobre-o-discurso-furioso-de-fabian-hurzeler-sobre-criar-suas-proprias-regras/blt28fb0cf66ebc797b" class="btn">Ler mais</a>
                 </article>
 
                 <article class="card">
-                    <img src="https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/966a/live/241a7db0-3643-11f0-a5d5-e3ea58cb3993.jpg" alt="Destaque">
+                    <img src="img/Arsenal3.jpg" alt="Destaque">
                     <h2>Jogador destaque da partida se destaca</h2>
                     <p>Jurriën Timber se destaca na partida contra o Chelsea e recebe elogios do Técnico Arteta.</p>
                     <a href="https://www.sofascore.com/pt/football/player/jurrien-timber/958959" class="btn">Ler mais</a>
@@ -50,10 +53,6 @@
         </main>
 
     </div>
-
-    <!-- Footer -->
-    <footer>
-        <p>&copy; <?php echo date('Y'); ?> - Desenvolvido por Murilo Ribeiro</p>
-    </footer>
+    <?php include 'rodape.php'; ?>
 </body>
 </html>
