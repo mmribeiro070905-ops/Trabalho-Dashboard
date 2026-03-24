@@ -7,9 +7,25 @@
     <link rel="stylesheet" href="dashboard.css">
 </head>
 <body>
+    <div class="dashboard-container">
+        <nav>
+                <ul>
+                    <li><a href="dashboard.php">Início</a></li>
+                    <li><a href="usuarios.php">Usuários</a></li>
+                    <li><a href="https://arsenaldirect.arsenal.com/Football-Shirts-and-Kit/c/kit">Produtos</a></li>
+                </ul> 
+
+                <div class="perfil-usuario">
+                    <img src="https://cdn-icons-png.flaticon.com/512/266/266033.png" alt="Avatar">
+                    <span>Murilo Ribeiro</span>
+                </div>
+
+        </nav>
+
     <main>
         <section class="card-form"> 
             <div class="form-header">
+                
                 <h2>Cadastro de usuário</h2>
                 <p>Preencha os campos abaixo para criar um novo usuário no sistema.</p>
             </div>
@@ -43,8 +59,10 @@
                 <a href="index.php" class="btn-cancel">Cancelar</a>
             </div>
         </form>
+        
         </section>
     </main>
+    </div>
     <?php include 'rodape.php';?>
 </body>
 </html>
