@@ -15,12 +15,17 @@
                 <li><a href="https://www.arsenal.com/fixtures">Jogos</a></li>
                 <li><a href="https://www.arsenal.com/men/players">Elenco</a></li>
                 <li><a href="usuarios.php">Usuarios</a></li>
-                <li><a href="cad-usuario.php">Cadastro de Usuarios</a></li>
+                <!-- <li><a href="cad-usuario.php">Cadastro de Usuarios</a></li> -->
+                <li><a href="postagens.php">Postagens</a></li>
+                <!-- <li><a href="cad-postagens.php">Cadastro de Postagens</a></li> -->
+                <li><a href="categoria.php">Categorias</a></li>
+                <!-- <li><a href="cad-usuario.php">Cadastro de Categorias</a></li> -->
+                
             </ul>
 
 
             <div class="perfil-usuario">
-                <img src="https://cdn-icons-png.flaticon.com/512/6596/6596121.png" alt="Avatar">
+                <img src="img/266033.png" alt="Avatar">
                 <span>Murilo Ribeiro</span>
             </div>
         </nav>
