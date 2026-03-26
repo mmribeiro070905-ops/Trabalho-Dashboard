@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    height: 100vh; /* altura total da tela */
+    display: flex;
+    justify-content: center; /* horizontal */
+    align-items: center;     /* vertical */
+    background-color: #cfcfcf; /* seu fundo */
+}
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fundo da página */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #052241, #ec2f2f);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Caixa do login */
+.login-container {
+    background: #ffffff;
+    padding: 40px 30px;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+    width: 350px;
+    text-align: center;
+}
+
+/* Título */
+.login-container h1 {
+    margin-bottom: 35px;
+    color: #052241;
+    font-size: 28px;
+}
+
+/* Campos */
+.login-container input {
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 15px;
+    outline: none;
+    transition: 0.3s;
+}
+
+/* Efeito ao clicar */
+.login-container input:focus {
+    border-color: #052241;
+    box-shadow: 0 0 8px rgba(0, 42, 255, 0.3);
+}
+
+/* Botão */
+.login-container button {
+    width: 100%;
+    padding: 14px;
+    background: #052241;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.login-container a {
+    color: #4a63e7;
+    text-decoration: none;
+    font-weight: bold;
+}
