@@ -16,7 +16,7 @@
                 </ul> 
 
                 <div class="perfil-usuario">
-                    <img src="https://cdn-icons-png.flaticon.com/512/266/266033.png" alt="Avatar">
+                    <img src="img/266033.png" alt="Avatar">
                     <span>Murilo Ribeiro</span>
                 </div>
 
@@ -26,7 +26,7 @@
         <section class="card-form"> 
             <div class="form-header">
                 
-                <h2>Cadastro de usuário</h2>
+                <h2>Cadastro de Usuário</h2>
                 <p>Preencha os campos abaixo para criar um novo usuário no sistema.</p>
             </div>
             <form action="insere-usuario.php" method="POST">
@@ -46,17 +46,25 @@
                     <input type="password" id="senha" name="senha" required>
                 </div>
                 <div class="form-group flex-1">
-                    <label for="nivel">Nível</label>
+                    <label for="nivel">Acesso</label>
                     <select id="nivel" name="nivel">
                         <option value="1">Usuário</option>
                         <option value="2">Administrador</option>
                     </select>
                 </div>
+                <div class="form-group flex-1">
+                    <label for="nivel">Status</label>
+                    <select id="nivel" name="nivel">
+                        <option value="1">Ativo</option>
+                        <option value="2">Inativo</option>
+                    </select>
+                </div>
+                
             </div>
 
             <div class="form-actions">
                 <button type="submit" class="btn-save">Finalizar Cadastro</button>
-                <a href="index.php" class="btn-cancel">Cancelar</a>
+                <a href="usuarios.php" class="btn-cancel">Cancelar</a>
             </div>
         </form>
         
