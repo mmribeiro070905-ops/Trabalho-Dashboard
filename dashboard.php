@@ -4,22 +4,20 @@
     <meta charset="UTF-8">
     <title>Arsenal News</title>
     <link rel="stylesheet" href="dashboard.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
     <div class="dashboard-container">
         
         <nav>
             <ul>
-                <li><a href="#">Início</a></li>
-                <li><a href="https://www.arsenal.com/news">Notícias</a></li>
-                <li><a href="https://www.arsenal.com/fixtures">Jogos</a></li>
-                <li><a href="https://www.arsenal.com/men/players">Elenco</a></li>
-                <li><a href="usuarios.php">Usuarios</a></li>
-                <!-- <li><a href="cad-usuario.php">Cadastro de Usuarios</a></li> -->
-                <li><a href="postagens.php">Postagens</a></li>
-                <!-- <li><a href="cad-postagens.php">Cadastro de Postagens</a></li> -->
-                <li><a href="categoria.php">Categorias</a></li>
-                <!-- <li><a href="cad-usuario.php">Cadastro de Categorias</a></li> -->
+                <li><a href="#"><i class="fas fa-home"></i> Início</a></li>
+                <li><a href="https://www.arsenal.com/news"><i class="fas fa-newspaper"></i> Notícias</a></li>
+                <li><a href="https://www.arsenal.com/fixtures"><i class="fas fa-gamepad"></i> Jogos</a></li>
+                <li><a href="https://www.arsenal.com/men/players"><i class="fas fa-users"></i> Elenco</a></li>
+                <li><a href="usuarios.php"><i class="fas fa-user"></i> Usuários</a></li>
+                <li><a href="postagens.php"><i class="fas fa-pen"></i> Postagens</a></li>
+                <li><a href="categoria.php"><i class="fas fa-list"></i> Categorias</a></li>
                 
             </ul>
 
