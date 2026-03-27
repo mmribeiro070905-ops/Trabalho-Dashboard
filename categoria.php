@@ -13,9 +13,9 @@
     <div class="dashboard-container">
         <nav>
             <ul>
-                <li><a href="#"><i class="fas fa-home"></i> Início</a></li>
-                <li><a href="#"><i class="fas fa-user"></i> Usuários</a></li>
-                <li><a href="https://arsenaldirect.arsenal.com/Football-Shirts-and-Kit/c/kit"><i class="fas fa-box"></i> Produtos</a></li>
+                <li><a href="dashboard.php"><i class="fas fa-home"></i> Início</a></li>
+                <li><a href="usuarios.php"><i class="fas fa-user"></i> Usuários</a></li>
+                <li><a href="postagens.php"><i class="fas fa-pen"></i> Postagens</a></li>
             </ul>
 
             <div class="perfil-usuario">
