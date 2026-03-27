@@ -12,7 +12,6 @@
                 <ul>
                     <li><a href="#"><i class="fas fa-home"></i> Início</a></li>
                     <li><a href="#"><i class="fas fa-user"></i> Usuários</a></li>
-                    <li><a href="https://arsenaldirect.arsenal.com/Football-Shirts-and-Kit/c/kit"><i class="fas fa-box"></i> Produtos</a></li>
                 </ul> 
 
                 <div class="perfil-usuario">
