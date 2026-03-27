@@ -12,12 +12,13 @@
         <nav>
             <ul>
                 <li><a href="#"><i class="fas fa-home"></i> Início</a></li>
+                <li><a href="categoria.php"><i class="fas fa-list"></i> Categorias</a></li>
+                <li><a href="postagens.php"><i class="fas fa-pen"></i> Postagens</a></li>
+                <li><a href="usuarios.php"><i class="fas fa-user"></i> Usuários</a></li>
                 <li><a href="https://www.arsenal.com/news"><i class="fas fa-newspaper"></i> Notícias</a></li>
                 <li><a href="https://www.arsenal.com/fixtures"><i class="fas fa-gamepad"></i> Jogos</a></li>
                 <li><a href="https://www.arsenal.com/men/players"><i class="fas fa-users"></i> Elenco</a></li>
-                <li><a href="usuarios.php"><i class="fas fa-user"></i> Usuários</a></li>
-                <li><a href="postagens.php"><i class="fas fa-pen"></i> Postagens</a></li>
-                <li><a href="categoria.php"><i class="fas fa-list"></i> Categorias</a></li>
+                <li><a href="https://arsenaldirect.arsenal.com/Football-Shirts-and-Kit/c/kit"><i class="fas fa-box"></i> Produtos</a></li>
                 
             </ul>
 
@@ -41,7 +42,7 @@
                 <article class="card">
                     <img src="img/Arsenal2.jpg" alt="Coletiva">
                     <h2>Treinador comenta sobre desempenho do time</h2>
-                    <p>O técnico falou sobre a evolução da equipe e os próximos desafios na Premiar League e Champions League.</p>
+                    <p>O técnico falou sobre a evolução da equipe e os próximos desafios na Premier League e Champions League.</p>
                     <a href="https://www.goal.com/br/listas/video-veja-a-expressao-facial-de-mikel-arteta-assista-ao-momento-extremamente-constrangedor-em-que-o-tecnico-do-arsenal-e-informado-sobre-o-discurso-furioso-de-fabian-hurzeler-sobre-criar-suas-proprias-regras/blt28fb0cf66ebc797b" class="btn">Ler mais</a>
                 </article>
 
