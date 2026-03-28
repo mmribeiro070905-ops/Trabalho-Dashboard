@@ -11,19 +11,9 @@
 
 <body>
     <div class="dashboard-container">
-        <nav>
-            <ul>
-                <li><a href="dashboard.php"><i class="fas fa-home"></i> Início</a></li>
-                <li><a href="usuarios.php"><i class="fas fa-user"></i> Usuários</a></li>
-                <li><a href="postagens.php"><i class="fas fa-pen"></i> Postagens</a></li>
-            </ul>
+        
+        <?php include "menu.php"; ?>
 
-            <div class="perfil-usuario">
-                <img src="img/266033.png" alt="Avatar">
-                <span>Murilo Ribeiro</span>
-            </div>
-
-        </nav>
         <main>
             <div class="header-content">
                 <div class="header-title">
