@@ -109,7 +109,7 @@ body {
 
 <div class="login-box">
 
-<h2>Arsenal Dash</h2>
+<h2>Login</h2>
 
 <form method="POST">
 
