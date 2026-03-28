@@ -9,18 +9,7 @@
 </head>
 <body>
     <div class="dashboard-container">
-        <nav>
-                <ul>
-                    <li><a href="dashboard.php"><i class="fas fa-home"></i> Início</a></li>
-                    <li><a href="categoria.php"><i class="fas fa-list"></i> Categorias</a></li>
-                </ul> 
-
-                <div class="perfil-usuario">
-                    <img src="img/266033.png" alt="Avatar">
-                    <span>Murilo Ribeiro</span>
-                </div>
-
-        </nav>
+<?php include "menu.php"; ?>
 
     <main>
         <section class="card-form"> 
