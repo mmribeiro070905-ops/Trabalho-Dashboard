@@ -1,91 +1,100 @@
+/* Reset básico: remove margens e paddings padrão do navegador */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin: 0; /* Remove margens */
+    padding: 0; /* Remove espaçamentos internos */
+    box-sizing: border-box; /* Faz largura/altura incluir padding e borda */
 }
 
+/* Estilo geral do corpo da página */
 body {
-    background-color: #dfdfdf;
-    font-family: 'Courier New', Courier, monospace;
-    color: #333;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+    background-color: #dfdfdf; /* Cor de fundo cinza claro */
+    font-family: 'Courier New', Courier, monospace; /* Fonte do site */
+    color: #333; /* Cor padrão do texto */
+    display: flex; /* Ativa flexbox */
+    flex-direction: column; /* Organiza elementos em coluna */
+    min-height: 100vh; /* Altura mínima = tela inteira */
 }
 
-
+/* Container principal do dashboard */
 .dashboard-container {
-    display: flex;
-    flex: 1;
-    min-height: calc(100vh - 60px); 
+    display: flex; /* Layout em linha (menu + conteúdo) */
+    flex: 1; /* Ocupa todo espaço disponível */
+    min-height: calc(100vh - 60px); /* Altura total menos o footer */
 }
 
-
+/* Menu lateral */
 nav {
-    width: 220px;
-    background-color: #f11a28;
-    padding: 20px;
+    width: 220px; /* Largura fixa do menu */
+    background-color: #f11a28; /* Cor vermelha */
+    padding: 20px; /* Espaçamento interno */
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /* Itens um embaixo do outro */
     justify-content: flex-start;
-
 }
 
+/* Lista do menu */
 nav ul {
     display: flex;
-    flex-direction: column;
-    gap: 15px;
-    list-style: none;
+    flex-direction: column; /* Links em coluna */
+    gap: 15px; /* Espaço entre itens */
+    list-style: none; /* Remove bolinhas */
 }
 
+/* Links do menu */
 nav a {
-    color: white;
-    text-decoration: none;
+    color: white; /* Cor do texto */
+    text-decoration: none; /* Remove sublinhado */
     display: block;
     padding: 10px;
     border-radius: 6px;
-    transition: background-color 0.3s, color 0.3s;
+    transition: background-color 0.3s, color 0.3s; /* Animação suave */
 }
 
+/* Efeito ao passar o mouse */
 nav a:hover {
-    background-color: #052241;
-    color: yellow;
+    background-color: #052241; /* Azul escuro */
+    color: yellow; /* Texto amarelo */
 }
 
+/* Área do perfil do usuário (embaixo do menu) */
 .perfil-usuario {
     display: flex;
-    align-items: center;
-    gap: 10px;
+    align-items: center; /* Alinha verticalmente */
+    gap: 10px; /* Espaço entre imagem e texto */
     color: aliceblue;
     padding-top: 20px;
-    border-top: 1px solid #ffffff;
-    margin-top: auto;
+    border-top: 1px solid #ffffff; /* Linha separadora */
+    margin-top: auto; /* Empurra pra baixo */
 }
 
+/* Imagem do usuário */
 .perfil-usuario img {
     width: 40px;
     height: 40px;
-    border-radius: 50%;
-    object-fit: cover;
+    border-radius: 50%; /* Deixa redonda */
+    object-fit: cover; /* Ajusta a imagem */
 }
 
+/* Área principal */
 main {
-    flex: 1;
+    flex: 1; /* Ocupa o resto da tela */
     padding: 30px;
     background-color: #f0f4f8;
 }
 
+/* Container dos cards */
 .container-cards {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap; /* Quebra linha se precisar */
     gap: 20px;
     justify-content: center;
 }
 
+/* Card individual */
 .card {
     flex: 1;
-    min-width: 450px;
-    max-width: 300px;
+    min-width: 450px; /* Largura mínima */
+    max-width: 300px; /* (OBS: isso pode dar conflito com min-width) */
     background-color: #ffffff;
     padding: 20px;
     border-radius: 10px;
@@ -93,33 +102,56 @@ main {
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
+/* Efeito ao passar mouse no card */
 .card:hover {
-    transform: translateY(-5px);
+    transform: translateY(-5px); /* Sobe um pouco */
     box-shadow: 0 8px 20px rgba(0,0,0,0.4);
 }
+
+/* Card de formulário */
 .card-form {
     background: white;
-    max-width: 700px; /* Evita que o form fique muito largo em telas grandes */
-    margin: 20px auto;
+    max-width: 700px;
+    margin: 20px auto; /* Centraliza */
     padding: 30px;
     border-radius: 12px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.05);
 }
 
-.form-header { margin-bottom: 25px; border-bottom: 1px solid #eee; padding-bottom: 15px; }
+/* Cabeçalho do formulário */
+.form-header { 
+    margin-bottom: 25px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 15px;
+}
 
+/* Grupo de campo (label + input) */
 .form-group {
     display: flex;
-    flex-direction: column; /* Label em cima, Input embaixo */
+    flex-direction: column; /* Label em cima */
     gap: 8px;
     margin-bottom: 20px;
 }
 
-.form-row { display: flex; gap: 20px; } /* Coloca dois campos lado a lado */
-.flex-1 { flex: 1; }
+/* Linha com dois campos */
+.form-row { 
+    display: flex; 
+    gap: 20px; 
+}
 
-label { font-weight: bold; color: #2c3e50; font-size: 14px; }
+/* Faz o item ocupar espaço igual */
+.flex-1 { 
+    flex: 1; 
+}
 
+/* Labels */
+label { 
+    font-weight: bold;
+    color: #2c3e50;
+    font-size: 14px;
+}
+
+/* Inputs e selects */
 input, select {
     padding: 12px;
     border: 1px solid #cbd5e0;
@@ -127,8 +159,9 @@ input, select {
     transition: 0.3s;
 }
 
+/* Botão salvar */
 .btn-save {
-    background-color: #27ae60;
+    background-color: #27ae60; /* Verde */
     color: white;
     border: none;
     padding: 12px 25px;
@@ -137,8 +170,14 @@ input, select {
     font-weight: bold;
 }
 
-input:focus { border-color: #004a8d; outline: none; box-shadow: 0 0 0 3px rgba(0,74,141,0.1); }
+/* Foco no input */
+input:focus { 
+    border-color: #004a8d;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0,74,141,0.1);
+}
 
+/* Imagem do card */
 .card img {
     width: 100%;
     height: 180px;
@@ -147,6 +186,7 @@ input:focus { border-color: #004a8d; outline: none; box-shadow: 0 0 0 3px rgba(0
     display: block;
 }
 
+/* Botão dentro do card */
 .card .btn {
     display: block;
     margin-top: 10px;
@@ -160,11 +200,13 @@ input:focus { border-color: #004a8d; outline: none; box-shadow: 0 0 0 3px rgba(0
     transition: background-color 0.3s;
 }
 
+/* Hover do botão */
 .card .btn:hover {
     background-color: #ffcc00;
     color: #000;
 }
 
+/* Rodapé */
 footer {
     background-color: #052241;
     color: white;
@@ -173,7 +215,7 @@ footer {
     font-size: 14px;
 }
 
-/*  Conteiner da Tabela */
+/* Container da tabela */
 .table-responsive {
     background-color: white;
     border-radius: 8px;
@@ -181,12 +223,13 @@ footer {
     overflow: hidden;
 }
 
+/* Tabela */
 table {
     width: 100%;
     border-collapse: collapse;
 }
 
-/* Cabeçalho Profissional */
+/* Cabeçalho */
 th{
     background-color: black;
     color: white;
@@ -196,18 +239,19 @@ th{
     text-transform: uppercase;
 }    
 
-/*Células de Dados */   
+/* Células */
 td{
     padding: 15px;
     border-bottom: 1px solid #eee;
     font-size: 14px;
     color: #444;
-    
 }
 
+/* Status */
 .ativo { background-color: #d4edda; color: #155724; }
 .inativo { background-color: #f8d7da; color: #721c24; }
 
+/* Botão ícone */
 .btn-icon {
     background: none;
     border: none;
@@ -216,24 +260,27 @@ td{
     gap: 20px;
 }
 
+/* Botão adicionar */
 .btn-add{
     background-color: #052241;
     color: white;
     border: none;
-    padding: 10px, 20px;
+    padding: 10px, 20px; /* ⚠️ ERRO: vírgula não funciona, deveria ser espaço */
     border-radius: 4px;
     cursor:pointer;
     font-size: 14px;
     text-decoration: none;
 }
 
+/* Cabeçalho com botão */
 .header-content{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; /* Espaça os elementos */
     align-items: center;
     margin-bottom: 20px;
 }
 
+/* Container de login */
 .login-container {
     background: #ffffff;
     padding: 40px 30px;
@@ -243,12 +290,14 @@ td{
     text-align: center;
 }
 
+/* Título login */
 .login-container h1 {
     margin-bottom: 25px;
     color: #222;
     font-size: 28px;
 }
 
+/* Inputs login */
 .login-container input {
     width: 100%;
     padding: 14px;
@@ -260,11 +309,13 @@ td{
     transition: 0.3s;
 }
 
+/* Foco */
 .login-container input:focus {
     border-color: #4a63e7;
     box-shadow: 0 0 8px rgba(74, 99, 231, 0.3);
 }
 
+/* Botão login */
 .login-container button {
     width: 100%;
     padding: 14px;
@@ -278,22 +329,26 @@ td{
     transition: 0.3s;
 }
 
+/* Hover botão */
 .login-container button:hover {
     background: #3549b9;
 }
 
+/* Texto */
 .login-container p {
     margin-top: 15px;
     font-size: 14px;
     color: #666;
 }
 
+/* Link */
 .login-container a {
     color: #4a63e7;
     text-decoration: none;
     font-weight: bold;
 }
 
+/* Hover link */
 .login-container a:hover {
     text-decoration: underline;
 }
