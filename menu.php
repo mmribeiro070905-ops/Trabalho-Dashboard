@@ -1,6 +1,6 @@
   <nav>
             <ul>
-                <li><a href="#">Início</a></li>
+                <li><a href="dashboard.php">Início</a></li>
                 <li><a href="https://www.arsenal.com/news">Notícias</a></li>
                 <li><a href="https://www.arsenal.com/fixtures">Jogos</a></li>
                 <li><a href="https://www.arsenal.com/men/players">Elenco</a></li>
