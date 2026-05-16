@@ -46,7 +46,7 @@
 
                 <article class="card">
                     <img src="img/Arsenal3.jpg" alt="Destaque">
-                    <h2>Jogador destaque da partida se destaca</h2>
+                    <h2>Jogador improvavel se destaca na partida</h2>
                     <p>Jurriën Timber se destaca na partida contra o Chelsea e recebe elogios do Técnico Arteta.</p>
                     <a href="https://www.sofascore.com/pt/football/player/jurrien-timber/958959" class="btn">Ler mais</a>
                 </article>
